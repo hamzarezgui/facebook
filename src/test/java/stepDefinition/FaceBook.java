@@ -16,7 +16,7 @@ public class FaceBook {
 
 	@Given("^Utilisateur sur la page d'accueil$")
 	public void utilisateur_sur_la_page_d_acceuil() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "D:\\Formations\\selenium udemy\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
